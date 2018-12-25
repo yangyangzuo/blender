@@ -1,0 +1,10 @@
+dota2动画导入和骨骼绑定:
+	https://www.youtube.com/watch?v=x5u8CmXUrYQ
+	youtube上搜索:dota2 blender import
+
+github:
+	http://pissang.github.io/dota2hero/#/heroes
+	https://github.com/pissang/dota2hero
+	webgl/3dprinter
+
+	
