@@ -8,3 +8,25 @@
     https://builder.blender.org/download/
 
     
+
+相机:
+    number0,切换到相机视图
+    也可以使用ctrl + number0,来激活一个选中的物体，作为相机,
+    例如: 选中灯光，然后ctrl + number0,此时，灯光就被激活为了相机视角，以后每次摁number0,都会以灯光的视角作为相机视角
+    
+
+
+
+
+对象模式(object mode):
+    tab:
+        当前模式和编辑模式来回切换
+    ctrl + tab:
+        弹出导航菜单，列出所有可以切换的模式
+
+
+
+
+
+
+        
