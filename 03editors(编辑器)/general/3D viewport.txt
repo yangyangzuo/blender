@@ -38,8 +38,7 @@
                 选中一个点/线/面，然后select -> select more/less -> more
                 会根据当前的点线面，向四周扩散一圈
 
-
-
+            对于编辑模式下，更多的操作，参考modeling
 
         雕刻模式(sculpt mode):
         定点绘制(vertex paint):
@@ -48,6 +47,19 @@
 
 
     2.view:
+        (工具栏)toogle toolbar: 快捷键是t
+        
+        (边栏)toogle sidebar: n
+        
+        Frame selected: 
+            numberpad .(数字键盘区的.),
+            鼠标提示(move the view to the selection center)，当前的视角移动到被选择的物体的中心
+        
+        frame all: 快捷键home
+            view all object in scene,当前的视角定义到可以查看所有的场景中的物体
+
+
+        
 
 
     3.select:
@@ -119,7 +131,8 @@
 
         geometry[dʒiˈɑ:mətri]几何学/几何形状/几何图形:
 
-    4.transparent:
+    4.transparent:  
+        控制场景里面的物体是否透明，快捷键alt + z
 
 
     5.4个小圆球：
@@ -149,6 +162,36 @@
 
 
     11.彩色3d坐标轴:
+
+
+
+    编辑模式下多出的工具:
+        extrude region:
+        inset faces:
+        bevel:
+        loop cut(环切):
+            cut mesh loop and slide it.(切割网环并滑动)
+            激活工具栏的图标:
+                    鼠标左键点击 
+                或者
+                    shift + spacebar，然后 ctrl + r
+                当激活左侧环切工具后，鼠标移动到物体上，则物体上会出现一条环形线框，直接点击鼠标，则会在对应的中心位置
+                出现一个环形线框，也可以点击拖拽到合适的位置，再松开鼠标
+
+            使用快捷键:
+                    直接ctrl + r,此时不会激活左边的工具栏
+                    鼠标移动到物体上，物体上回出现一个环框，点击一下鼠标，环框所在的面确定，(此时可以滚动滑轮或者输入字母上方数字，来控制环框的个数)
+                        然后移动位置，环框的具体位置确定
+
+
+        knife:
+        poly build:
+        spin:
+        smooth:
+        edge slide:
+        shrink/fatten:
+        shear:
+        rip region:
 
 
 
@@ -187,8 +230,11 @@
                             当激活左边工具栏的方形选择模式后，通过方形圈选，既可选择需要的物体，如果一次选择不满意，再次方选既可,
                             如果要取消选中的物体，先ctrl，在框选，即可取消选中的物体
 
-                            如果使用的是快捷键b(增选)，进行box select,如果第一次选择的不满意，
-                            则可以再次摁b，调出方选功能，此时，摁住shift，然后拖动鼠标左键，就可以把刚才选中的物体取消掉
+                            如果使用的是快捷键b(增选)，进行box select 
+                            取消选中的一部分物体:
+                                摁b，调出方选功能，此时，摁住shift，然后拖动鼠标左键，就可以把刚才选中的物体取消掉
+                                或者
+                                摁b，调出方选功能，然后拖动鼠标中键，就可以把刚才选中的物体取消掉
 
                         circle select:
                             当激活了左边工具栏的圆形选择的时候，摁下鼠标左键，在软件的最下面的面板就中会提示可以有哪些操作，
