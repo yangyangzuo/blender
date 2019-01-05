@@ -1,0 +1,96 @@
+Introduction
+In this section will be described tools for manipulating objects in Object Mode. All editing tools can be found in Object menu and/or in Tool Shelf.
+
+Delete
+Reference
+
+Mode:	Object Mode
+Panel:	Tool Shelf ‣ Tools ‣ Edit ‣ Delete
+Menu:	Object ‣ Delete
+Hotkey:	X
+The selected objects are deleted from the scene.
+
+Delete Globally Shift-X
+This checkbox in the Operator panel will cause the objects to be deleted from all the scenes where they are linked.
+Show/Hide
+Reference
+
+Mode:	All Modes
+Menu:	Object ‣ Show/Hide
+Show Hidden Alt-H
+Reveals all hidden objects.
+Hide Selected H
+Hides all selected objects.
+Hide Unselected Shift-H
+Hides all unselected objects of the scene. The Unselected checkbox in the Set Restrict View/Hide Selected Operator panel will be checked.
+Convert To
+Curve from Mesh/Text
+Reference
+
+Mode:	Object Mode
+Menu:	Object ‣ Convert to ‣ Curve from Mesh/Text
+Hotkey:	Alt-C
+Mesh objects and text objects can be converted into curve objects. In mesh objects, only edges belonging to no faces will be taken into account. The resulting curve will be a Poly curve type, but can be converted to have smooth segments as described in Set Spline Type.
+
+Mesh from Curve/Metaball/Surface/Text
+Reference
+
+Mode:	Object Mode
+Menu:	Object ‣ Convert to ‣ Mesh from Curve/Metaball/Surface/Text
+Hotkey:	Alt-C
+Converts the selected curve, metaball, surface and text objects to mesh objects. The actual defined resolution of these objects will be taken into account for the conversion. Note that it also keeps the faces and volumes created by closed and extruded curves.
+
+Options
+Keep Original
+Duplicates the original object before converting it.
+
+
+
+
+
+
+
+
+Join(合并)
+
+    Reference
+        Mode:	Object Mode
+        Panel:	Tool Shelf ‣ Tools ‣ Edit ‣ Join
+        Menu:	Object ‣ Join
+        Hotkey:	Ctrl-J
+
+
+    3d viewport-->object mode-->object--->join(ctrl+j)
+
+
+    加入将所有选定物体合并到最后一个选定的Active物体中。
+    Join merges all selected objects into the last selected Active object. 
+
+    所有物体数据都链接到激活的物体上（激活物体必须选择）。
+    All object data is linked to the active object (which must be selected). 
+
+    所有物体必须具有相同的类型：网格，曲线，表面或支架。
+    All objects must be of the same type: mesh, curve, surface or armature. 
+
+    如果连接了几条曲线，则每条曲线将保持其子类型（NURBS或Bezier）。
+    If several curves are joined, each one will keep its subtype (NURBS or Bézier).
+
+
+    Note
+        Object data has many attributes which may be handled when joining.
+        物体数据有许多属性可以在加入时处理。
+
+        Materials, vertex groups, UV and Vertex layers will be merged.
+        材料，顶点组，UV和顶点图层将被合并。
+
+        Modifiers, constraints, groups and parent relationships are ignored when joining 
+        and will not be applied to the active object.
+        修改器，约束，组和父关系在加入时将被忽略，不会应用于活动对象。
+
+    
+    使用场景:
+        对物体进行编辑的时候，默认只能编辑一个，如果想同时对多个物体编辑，则有3中方法:
+        1.物体模式下，选中多个对象，然后进入编辑模式
+        2.选中一个物体后，进入编辑模式，此时默认只能编辑这个物体，此时可以在编辑模式下，添加新物体，则新添加的物体，可以和原来的物体一起被编辑
+        3.在物体模式下，选中多个物体，然后把多个物体合成一个物体(ctrl+j)，然后选中这个物体，进入编辑模式
+        
