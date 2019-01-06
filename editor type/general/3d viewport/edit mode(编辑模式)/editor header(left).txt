@@ -3,8 +3,6 @@
         ctrl + tab: 弹出导航菜单，列出所有可以切换的模式(先选中物体，才会列出改物体的可用模式)
         
         对象模式(object mode):
-
-
         编辑模式(edit mode):
             点线面的选择的快捷键分别是字母上面的123，当然也可以上面的图标来选择，点/线/面
             
@@ -71,4 +69,49 @@
             选中它，然后x,弹出确认删除提示，点击左键确认或者摁d确认或者回车确认
             或者
             在一个物体上点右键，删除
-    5.object:
+    5.mesh[mɛʃ]网孔/网眼/网状物:
+        separate['sepəreɪt]分开/(使)分离/区分/隔开:
+            快捷键:p
+            (object mode -> object -> join)
+            在object mode模式下，如果对多个物体进行了合并操作，可以在编辑模式下，进行物体的分离
+            参考:
+                https://docs.blender.org/manual/en/dev/modeling/curves/editing/introduction.html?highlight=separate#separate
+            合并的物体如果相分离，需要在编辑模式下，摁p键，弹出分离对话框，选择对应的分离模式，进行分离
+            (如果选中了对应的点/线/面,则可以分别对点/线/面进行分离，如果选择了某一个物体，则可以把这个物体从合并的对象分离出去)
+            编辑模式->mesh->separate(快捷键p)
+
+    6.vertex [ˈvɜ:rteks]:
+        顶点;最高点;<数>（三角形、圆锥体等与底相对的）顶;（三角形、多边形等的）角的顶点
+        
+        rip[rɪp]扯破/撕开/撕坏 vertices [ˈvɚtɪˌsiz](vertex的复数形式):
+            顶点分离
+            快捷键:v
+            选择一个顶点/线，然后调整鼠标的位置，接着摁下v，则对应点/线，以及所关联的点/线/面会发生分离
+            例如:
+                立方体中，选中一个顶点，
+                此时把鼠标移动到某一个面上，然后v，此时鼠标所在的面和顶点形成的内容会发生分离
+                如果把鼠标移动到某个边框上，然后v,此时鼠标所在的边框所在的面和顶点形成的内容会发生分离
+                需要在对应的方向移动的话，输入x/y/z即可，或者摁住鼠标中间，移动鼠标，此时会调出3维轴，
+                移动鼠标让对应的内容达到对应的额轴的时候，就可以松开中间，此时随便移动鼠标，就只会在某个轴上移动
+            参考:
+                https://docs.blender.org/manual/en/dev/modeling/meshes/editing/vertices.html?highlight=rip#separating
+        rip vertices and fill:
+            顶点分离，而且自动填充分离所空缺出来的内容
+            快捷键: alt + v
+
+        merge vertices:
+            合并顶点
+            选中多个顶点，然后进行合并操作
+            快捷键: alt + m
+
+
+
+
+
+
+
+
+    7.edge:
+    8.face:
+    9.uv:
+
