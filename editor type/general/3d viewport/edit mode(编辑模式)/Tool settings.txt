@@ -1,0 +1,34 @@
+在当前的模式下，选择左侧的工具(tool bar(left))的时候，顶部的tool setting(顶部菜单栏的下面)会发生变化:
+
+左侧工具栏:
+    select:
+        无
+
+    select box:
+        new 
+        add 
+        subtract
+        difference
+        intersect
+
+    select circle:
+        radius
+
+
+    select lasso:
+        new 
+        add 
+        subtract
+        difference
+        intersect
+
+    cursor:
+        surface project
+        
+        orientation:
+            none
+            view
+            transform
+            geometry
+            orientation
+    
