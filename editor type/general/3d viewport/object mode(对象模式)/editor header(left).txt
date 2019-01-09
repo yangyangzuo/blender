@@ -48,7 +48,7 @@
             快捷键:ctrl + j
             参考:
                 https://docs.blender.org/manual/en/dev/editors/3dview/object/editing/introduction.html?highlight=join#join
-
+                https://www.bilibili.com/video/av24292767/?p=11
             使用场景:
                 对物体进行编辑的时候，默认只能编辑一个，如果想同时对多个物体编辑，则有3中方法:
                 1.物体模式下，选中多个对象，然后进入编辑模式(编辑完成之后，返回物理模式，多个物体还是独自的多个物体)

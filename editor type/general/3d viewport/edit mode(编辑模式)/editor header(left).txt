@@ -42,11 +42,19 @@
         纹理绘制(texture paint):
 
 
+        vertex select:
+            选择顶点
+        edge select:
+            选择边
+        face select:
+            选择面 
+
     2.view:
-        
-        
-        
-        
+        toogle toolbar:
+            切换左侧工具栏显示和隐藏,快捷键t
+        toogle sidebar:
+            切换右侧边栏显示和隐藏,快捷键n
+              
         Frame selected: 
             numberpad .(数字键盘区的.),
             鼠标提示(move the view to the selection center)，当前的视角移动到被选择的物体的中心
@@ -54,12 +62,32 @@
         frame all: 快捷键home
             view all object in scene,当前的视角定义到可以查看所有的场景中的物体
 
+        perspective/orthographic:
+            perspective[pəˈspektɪv]透视,透镜,望远镜,远景
+            orthographic[ˌɔ:θə'ɡræfɪk]正射;正直，正交
+            透视模式/正交视图
+            正交视图和透视视图的切换，详见视角.text
+            对于透视视图，有近大远小的效果，图标也有这种效果
+            而正交视图，图中的长和宽都是一样的
+            所以很容易区分正交视图/透视视图
+            shortcut:5 in the number pad
+        localview:
+        cameras:
+        viewport:
+        navigation:
+        align view:
+        view borders:
+        play animation:
+        viewport render:
+        viewport render animation:
+        area:
 
+      
         
 
 
     3.select:
-
+        
         
 
     4.add:
@@ -83,6 +111,18 @@
     6.vertex [ˈvɜ:rteks]:
         顶点;最高点;<数>（三角形、圆锥体等与底相对的）顶;（三角形、多边形等的）角的顶点
         
+        new edge[ɛdʒ]/face from vertices:
+            从顶点创建边/面
+            快捷键: f
+            选中顶点/边，blender会自动根据选中的额顶点/边，生成面，例如：一个物体有些面被删除，可以通过这个进行补面
+            或者
+            选中一个或者多个点/边，右键，new edge/face from vertices
+            或者
+            选中边,挤出，拉出一个新面，然后，选中对应新面对应的点和其他的点，进行合并(alt+m),这样新面就可以和其他面合并
+            参考:
+                https://docs.blender.org/manual/en/latest/modeling/meshes/editing/basics/make_face_edge.html?highlight=face%20from%20vertics#make-edge-face
+                https://www.bilibili.com/video/av24292767/?p=12
+
         rip[rɪp]扯破/撕开/撕坏 vertices [ˈvɚtɪˌsiz](vertex的复数形式):
             顶点分离
             快捷键:v
@@ -112,6 +152,38 @@
 
 
     7.edge:
+        bevel edge:
+            Bevel['bevl]倒角/斜面/斜角/把..切成或磨成斜边/斜角/斜面:
+            倒角工具用于为几何体创建斜面或圆角。倒角就是用来平滑边线或拐角的。
+            edit mode->edge->bevel edge
+            编辑模式 -> 边缘 -> 把边缘切为斜面
+            具体表现:
+                一个顶点所在的角，变成一个平面
+                一个边缘所在的棱，变成了一个平面
+                一个面，以该面的四个边，每个边形成一个平面
+            编辑模式下，选择面/线:
+                快捷键:ctrl+b
+            编辑模式下，选择顶点:
+                快捷键:ctrl+shift+b
+
+            除了能把一个点/线/面，变为一个斜面以外，还有另一种用法:
+            和环切配合使用，例如：进行环切操作时，可能切的线不够多，假如以前是2根，但是现在需要10根，
+            此时可以使用bevel，线选中这2根loop线，然后ctrl+b,滚动鼠标，每个拉伸出5根，移动鼠标拉伸到合适的位置即可
+            参考:
+                https://docs.blender.org/manual/en/latest/modeling/meshes/editing/subdividing/bevel.html?highlight=bevel#bevel
+                https://www.bilibili.com/video/av24292767/?p=10
+
+
+        Subdividing(细分/再分):
+        Subdivide(细分):
+            细分工具将边和面切为两半或更多，添加新的顶点，并细分对应相关面。它通过将面和边切割为更小的单元，来增加分辨率。
+            编辑模式下，
+            1.可以通过环·切来实现，多次环切
+            或者
+            2.选中物体的一个线/面或者多个线/面，鼠标右键，subdivide，如果想多次细分，可以shift+r(重复刚才的操作)
+            或者
+            3.进行一次第二步操作，工作区下方会弹出一个面板，更改里面的number of cuts参数即可
+            
     8.face:
     9.uv:
 
