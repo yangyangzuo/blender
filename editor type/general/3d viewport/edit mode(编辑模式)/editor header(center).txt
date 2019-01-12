@@ -15,6 +15,25 @@
     3.snaping:
 
 
-    4.
+    4.proportinal editing mode:
+        proportinal[prəˈpɔ:rʃənl]比例的，成比例的;相称的，均衡的
+        比例编辑模式/衰减编辑模式，鼠标移动到图标上，提示
+        快捷键: o
+        参考:
+            https://docs.blender.org/manual/en/dev/editors/3dview/object/editing/transform/control/proportional_edit.html?highlight=proportional#proportional-edit
+            https://www.bilibili.com/video/av24292767/?p=13
+        
+        激活比例编辑以后，选中物体上的点/线/面，然后G，准备移动物体的点线面的时候可以看到有一个圆圈，这个圆圈标识会受影响的范围
+        当你移动的时候，周围的点线面也会跟随着相应的移动，
+        受影响的点线面的移动方式可以通过选择旁边的propertinal editing falloff
 
+        如果有些物体不想被影响到(受影响物体较少)，则可以把这个物体分离出去(p)
+        或者
+        (受影响的物体较多),在比例编辑模式下，选择connected,表示只有和当前选择的点线面相连的物体才会受到衰减编辑的影响
+        快捷键: alt + o
+        
     5.pivot point:
+        pivot[ˈpɪvət] 枢轴;中心点，中枢;[物]支点，支枢
+        轴心点
+        物体旋转/缩放围绕的中心点
+        https://www.bilibili.com/video/av22003180/?p=7

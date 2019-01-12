@@ -9,13 +9,12 @@
 
     
 blender官方入门:
-https://www.bilibili.com/video/av17804799/?p=10
-
+https://www.bilibili.com/video/av17804799/?p=15
 顺子
-https://www.bilibili.com/video/av24292767/?p=13
+https://www.bilibili.com/video/av24292767/?p=14
 
 blender官网中文基础教程
-https://www.bilibili.com/video/av22003180/?p=7
+https://www.bilibili.com/video/av22003180/?p=9
 
 
 台湾大神的blender教程全集

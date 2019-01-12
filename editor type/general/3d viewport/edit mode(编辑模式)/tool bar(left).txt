@@ -147,11 +147,24 @@
                     (此时可以滚动滑轮或者输入字母上方数字，来控制环框的个数)
                     然后移动位置，点击左键，环框的具体位置确定
                     如果想让环切的位置，正好在物体的正中间，可以直接点右键来确定最终的位置，任意地方点右键，默认会在物体的中间
-
+        https://www.bilibili.com/video/av17804799/?p=12
         
 
 
     14.knife:
+        切割工具，可以在物体上画出点和线
+        快捷键: k
+        或者
+        shift + space ,k 激活左侧工具栏
+        激活工具后，鼠标左键选中起点，然后移动鼠标，移动过程中和物体相交的部位会出现点和线
+        激活工具后，移动过程中，鼠标左键松开和不松开有不同的结果
+        参考:
+            https://www.bilibili.com/video/av17804799/?p=14
+            https://docs.blender.org/manual/en/dev/modeling/meshes/editing/subdividing/knife.html?highlight=knife#knife-tool
+            
+
+
+
     15.poly build:
     16.spin:
     17.smooth:
