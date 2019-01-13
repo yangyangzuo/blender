@@ -35,5 +35,39 @@
     5.pivot point:
         pivot[ˈpɪvət] 枢轴;中心点，中枢;[物]支点，支枢
         轴心点
-        物体旋转/缩放围绕的中心点
+        物体旋转/缩放围绕的中心点，
+        如果把轴心点移动到某一个顶端，然后进行缩放，则缩放只会朝着一个方向进行
         https://www.bilibili.com/video/av22003180/?p=7
+        https://www.bilibili.com/video/av24292767/?p=14
+
+        bounding box center:
+            bound [baʊnd] 界限，限制;束缚;给…划界，限制;
+            边界盒中心
+            首先打物体边框显示,
+            editor type->data->properties
+            选择左侧object-->view display -> bounds(box)勾选即可
+            blender自动计算边界盒中心(通常是这个物体的中心)
+
+            注意:
+                如果通过合并(join)操作，把多个物体合并为一个物体，则此时，
+                合并后的物体的默认中线点是激活的对象的中心点(最后选择的物体)
+                即：最后选择的物体的默认中心点，作为合并后的整体物体的中心点
+
+        3d cursor:
+            以3d游标作为中心
+        individual origins:
+            各自的/独立的原点/起点
+            多个物体会以自己的中心点作为参考点
+        median point:
+            median[ˈmidiən]中位数;中线;[数]中值
+            物体的中间点，如果选中多个物体，则blender自动计算多个物体的中间点
+
+        active element:
+            活动元素，物体上颜色和别的物体颜色不一样
+            如果选择了多个物体，则最后一个物体是活动物体
+
+        设置对象的原点(origin):
+            物体在进行一些操作后，
+            比如：多个物体合并(join)，然后再分离,
+            物体的原点可以为之被改变了，可以通过右键，set orign来更改物体的原点
+
