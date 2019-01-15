@@ -29,7 +29,10 @@
 
     5.4个小圆球：
         分别是场景中的物体的显示模式，这4个显示模式切换的快捷键z,可以调出显示模式选择弹框
-
+        wireframe(线框):
+        solid:
+        lookDev:
+        rendered:
 
     6.shading:
 
