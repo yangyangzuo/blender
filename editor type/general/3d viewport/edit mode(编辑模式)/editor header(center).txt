@@ -46,10 +46,27 @@
 
 
 
-
     2.snap(snæp)吸附:
+        snap[snæp]吸附/折断;猛地咬住;呵斥
         snap during transform,shortcut: shift + tab
-        马蹄铁，物体移动的时候，会有吸附效果，快捷键，shift+tab，如果在移动物体时，发现磕磕盼盼，可能是这个选项打开了
+        马蹄铁，物体移动的时候，会有吸附效果，快捷键，shift+tab，
+        如果在移动物体时，发现磕磕盼盼，可能是这个选项打开了
+
+        snapping:
+            
+        target:
+            吸附到某个目标对象上
+            closest
+            center
+            median: [ˈmidiən]中间的;中央的;[数]中值的
+            active
+        affect:
+            进行move,rotate,scale操作的时候，吸附功能会影响操作
+        
+
+        参考:
+        https://www.bilibili.com/video/av22003180/?p=12
+
 
     3.snaping:
 

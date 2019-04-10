@@ -7,13 +7,13 @@
 每日构建版:
     https://builder.blender.org/download/
 
-    
+
 blender官方入门:
 https://www.bilibili.com/video/av17804799/?p=15
 顺子
 https://www.bilibili.com/video/av24292767/?p=16
 blender官网中文基础教程
-https://www.bilibili.com/video/av22003180/?p=12
+https://www.bilibili.com/video/av22003180/?p=13
 
 
 台湾大神的blender教程全集
