@@ -51,7 +51,7 @@
                 如果你取消了origins勾选，则即使选中了某个物体，物体上也不会出现原点
                 把origins和origins(all)都勾选上，则工作区中的所有的物体上都会出现origin
 
-
+x`x`
     2.cursor(游标):
         3d游标的作用:当你定位好游标后，添加一个新物体，物体会出现在游标所在的位置
         shift + c,把游标恢复到坐标系中心点(view->align view->center cursor and view all)
